@@ -1,0 +1,85 @@
+fuente,variable,unidad,tipovalor,marcatiempo,periodominutos,equivalente,descripcion
+nasa_power,allsky_kt,adimensional,media,inicio,60,kt,Indice de claridad (GHI / extraterrestre)
+nasa_power,allsky_sfc_sw_diff,Wh/m²,media,inicio,60,dhi,Difusa horizontal cielo real
+nasa_power,allsky_sfc_sw_dni,Wh/m²,media,inicio,60,dni,DNI cielo real
+nasa_power,allsky_sfc_sw_dwn,Wh/m²,media,inicio,60,ghi,GHI cielo real (CERES/MERRA-2); Wh/m² en 1 h = W/m² medios
+nasa_power,clrsky_sfc_sw_dwn,Wh/m²,media,inicio,60,ghics,GHI de cielo despejado
+nasa_power,prectotcorr,mm/h,acumulado,inicio,60,precip,Precipitacion corregida
+nasa_power,ps,kPa,instantaneo,inicio,60,pressure,Presion en superficie
+nasa_power,rh2m,%,instantaneo,inicio,60,rh,Humedad relativa a 2 m
+nasa_power,t2m,°C,instantaneo,inicio,60,temp,Temperatura a 2 m
+nasa_power,t2mdew,°C,instantaneo,inicio,60,dewpoint,Punto de rocio a 2 m
+nasa_power,wd10m,°,instantaneo,inicio,60,winddir,Direccion del viento a 10 m
+nasa_power,ws10m,m/s,instantaneo,inicio,60,wind,Velocidad del viento a 10 m
+nsrdb_goes,air_temperature,°C,instantaneo,instante,10,temp,Temperatura del aire (MERRA-2)
+nsrdb_goes,aod,adimensional,instantaneo,instante,10,aod,Espesor optico de aerosoles
+nsrdb_goes,clearsky_dhi,W/m²,instantaneo,instante,10,dhics,DHI de cielo despejado
+nsrdb_goes,clearsky_dni,W/m²,instantaneo,instante,10,dnics,DNI de cielo despejado
+nsrdb_goes,clearsky_ghi,W/m²,instantaneo,instante,10,ghics,GHI de cielo despejado (REST2)
+nsrdb_goes,cloud_type,codigo,instantaneo,instante,10,cloudtype,"Tipo de nube: 0 despejado, 1 prob. despejado, 2 niebla, 3 agua, 4 agua sobreenfriada, 5 mixta, 6 hielo opaco, 7 cirros, 8 superpuesta, 9 sobrepasante, 10 desconocido, 11 polvo, 12 humo, -15 N/A"
+nsrdb_goes,dhi,W/m²,instantaneo,instante,10,dhi,DHI satelital
+nsrdb_goes,dni,W/m²,instantaneo,instante,10,dni,DNI satelital
+nsrdb_goes,ghi,W/m²,instantaneo,instante,10,ghi,"GHI satelital GOES (PSM v4, 2 km)"
+nsrdb_goes,relative_humidity,%,instantaneo,instante,10,rh,Humedad relativa
+nsrdb_goes,solar_zenith_angle,°,instantaneo,instante,10,zenith,Angulo cenital solar
+nsrdb_goes,surface_pressure,mbar,instantaneo,instante,10,pressure,Presion en superficie
+nsrdb_goes,total_precipitable_water,cm,instantaneo,instante,10,pwat,Agua precipitable
+nsrdb_goes,wind_speed,m/s,instantaneo,instante,10,wind,Velocidad del viento
+om_air_quality,aerosol_optical_depth,adimensional,instantaneo,instante,60,aod,Espesor optico de aerosoles a 550 nm (CAMS)
+om_air_quality,dust,μg/m³,instantaneo,instante,60,dust,Concentracion de polvo cerca de la superficie (CAMS)
+om_archive,cloud_cover,%,instantaneo,instante,60,cloud,Nubosidad total
+om_archive,cloud_cover_high,%,instantaneo,instante,60,cloudhigh,Nubosidad alta (> ~6 km)
+om_archive,cloud_cover_low,%,instantaneo,instante,60,cloudlow,Nubosidad baja (hasta ~2 km)
+om_archive,cloud_cover_mid,%,instantaneo,instante,60,cloudmid,Nubosidad media (~2-6 km)
+om_archive,dew_point_2m,°C,instantaneo,instante,60,dewpoint,Punto de rocio a 2 m
+om_archive,diffuse_radiation,W/m²,media,fin,60,dhi,"Irradiancia difusa horizontal (DHI), media del periodo"
+om_archive,direct_normal_irradiance,W/m²,media,fin,60,dni,"Irradiancia directa normal (DNI), media del periodo"
+om_archive,direct_radiation,W/m²,media,fin,60,bhi,"Irradiancia directa sobre plano horizontal, media del periodo"
+om_archive,precipitation,mm,acumulado,fin,60,precip,Precipitacion total del periodo (lluvia + chubascos)
+om_archive,relative_humidity_2m,%,instantaneo,instante,60,rh,Humedad relativa a 2 m
+om_archive,shortwave_radiation,W/m²,media,fin,60,ghi,"Irradiancia global horizontal (GHI), media del periodo que termina en datatime"
+om_archive,sunshine_duration,s,acumulado,fin,60,sunshine,"Segundos de sol (DNI > 120 W/m², definicion OMM) en el periodo"
+om_archive,surface_pressure,hPa,instantaneo,instante,60,pressure,Presion atmosferica en superficie
+om_archive,temperature_2m,°C,instantaneo,instante,60,temp,Temperatura del aire a 2 m
+om_archive,terrestrial_radiation,W/m²,media,fin,60,toa,Irradiancia extraterrestre sobre plano horizontal (tope de la atmosfera)
+om_archive,vapour_pressure_deficit,kPa,instantaneo,instante,60,vpd,Deficit de presion de vapor
+om_archive,wind_direction_10m,°,instantaneo,instante,60,winddir,Direccion del viento a 10 m
+om_archive,wind_gusts_10m,km/h,maximo,fin,60,gust,Racha maxima del periodo a 10 m
+om_archive,wind_speed_10m,km/h,instantaneo,instante,60,wind,Velocidad del viento a 10 m
+om_historical_forecast,cape,J/kg,instantaneo,instante,60,cape,Energia potencial convectiva disponible (indicador de tormentas)
+om_historical_forecast,cloud_cover,%,instantaneo,instante,60,cloud,Nubosidad total
+om_historical_forecast,cloud_cover_high,%,instantaneo,instante,60,cloudhigh,Nubosidad alta (> ~6 km)
+om_historical_forecast,cloud_cover_low,%,instantaneo,instante,60,cloudlow,Nubosidad baja (hasta ~2 km)
+om_historical_forecast,cloud_cover_mid,%,instantaneo,instante,60,cloudmid,Nubosidad media (~2-6 km)
+om_historical_forecast,dew_point_2m,°C,instantaneo,instante,60,dewpoint,Punto de rocio a 2 m
+om_historical_forecast,diffuse_radiation,W/m²,media,fin,60,dhi,"Irradiancia difusa horizontal (DHI), media del periodo"
+om_historical_forecast,direct_normal_irradiance,W/m²,media,fin,60,dni,"Irradiancia directa normal (DNI), media del periodo"
+om_historical_forecast,direct_radiation,W/m²,media,fin,60,bhi,"Irradiancia directa sobre plano horizontal, media del periodo"
+om_historical_forecast,precipitation,mm,acumulado,fin,60,precip,Precipitacion total del periodo (lluvia + chubascos)
+om_historical_forecast,relative_humidity_2m,%,instantaneo,instante,60,rh,Humedad relativa a 2 m
+om_historical_forecast,shortwave_radiation,W/m²,media,fin,60,ghi,"Irradiancia global horizontal (GHI), media del periodo que termina en datatime"
+om_historical_forecast,surface_pressure,hPa,instantaneo,instante,60,pressure,Presion atmosferica en superficie
+om_historical_forecast,temperature_2m,°C,instantaneo,instante,60,temp,Temperatura del aire a 2 m
+om_historical_forecast,wind_speed_10m,km/h,instantaneo,instante,60,wind,Velocidad del viento a 10 m
+om_previous_runs,cloud_cover,%,instantaneo,instante,60,cloud,Nubosidad total
+om_previous_runs,diffuse_radiation,W/m²,media,fin,60,dhi,"Irradiancia difusa horizontal (DHI), media del periodo"
+om_previous_runs,direct_normal_irradiance,W/m²,media,fin,60,dni,"Irradiancia directa normal (DNI), media del periodo"
+om_previous_runs,precipitation,mm,acumulado,fin,60,precip,Precipitacion total del periodo (lluvia + chubascos)
+om_previous_runs,relative_humidity_2m,%,instantaneo,instante,60,rh,Humedad relativa a 2 m
+om_previous_runs,shortwave_radiation,W/m²,media,fin,60,ghi,"Irradiancia global horizontal (GHI), media del periodo que termina en datatime"
+om_previous_runs,temperature_2m,°C,instantaneo,instante,60,temp,Temperatura del aire a 2 m
+om_previous_runs,wind_speed_10m,km/h,instantaneo,instante,60,wind,Velocidad del viento a 10 m
+om_satellite,diffuse_radiation,W/m²,media,fin,15,dhi,"Irradiancia difusa horizontal (DHI), media del periodo"
+om_satellite,direct_normal_irradiance,W/m²,media,fin,15,dni,"Irradiancia directa normal (DNI), media del periodo"
+om_satellite,direct_radiation,W/m²,media,fin,15,bhi,"Irradiancia directa sobre plano horizontal, media del periodo"
+om_satellite,shortwave_radiation,W/m²,media,fin,15,ghi,"Irradiancia global horizontal (GHI), media del periodo que termina en datatime"
+om_single_runs,cape,J/kg,instantaneo,instante,60,cape,Energia potencial convectiva disponible (indicador de tormentas)
+om_single_runs,cloud_cover,%,instantaneo,instante,60,cloud,Nubosidad total
+om_single_runs,cloud_cover_low,%,instantaneo,instante,60,cloudlow,Nubosidad baja (hasta ~2 km)
+om_single_runs,diffuse_radiation,W/m²,media,fin,60,dhi,"Irradiancia difusa horizontal (DHI), media del periodo"
+om_single_runs,direct_normal_irradiance,W/m²,media,fin,60,dni,"Irradiancia directa normal (DNI), media del periodo"
+om_single_runs,precipitation,mm,acumulado,fin,60,precip,Precipitacion total del periodo (lluvia + chubascos)
+om_single_runs,relative_humidity_2m,%,instantaneo,instante,60,rh,Humedad relativa a 2 m
+om_single_runs,shortwave_radiation,W/m²,media,fin,60,ghi,"Irradiancia global horizontal (GHI), media del periodo que termina en datatime"
+om_single_runs,temperature_2m,°C,instantaneo,instante,60,temp,Temperatura del aire a 2 m
+om_single_runs,wind_speed_10m,km/h,instantaneo,instante,60,wind,Velocidad del viento a 10 m

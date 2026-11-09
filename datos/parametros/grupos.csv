@@ -1,0 +1,15 @@
+grupo,zona,latitude,longitude,diametrokm,prioridad,nplantas,ninversores,elevacion,localidad
+G01,Santa Marta,11.24,-74.21,0.27,1,2,3,6.0,G01
+G02,Riohacha,11.55,-72.91,0.0,2,1,2,7.0,G02
+G03,Barranquilla centro,10.98,-74.77,1.779,3,5,10,3.0,G03
+G04,Barranquilla norte A,11.01,-74.83,0.753,4,3,3,86.0,G04
+G05,Barranquilla norte B,11.03,-74.86,0.537,5,3,4,7.0,G05
+G06,Sincelejo,9.31,-75.38,0.0,6,1,1,195.0,G06
+G07,Corozal,9.32,-75.29,0.0,7,1,1,153.0,G07
+G08,Sucre occidente,9.49,-75.55,0.0,8,1,3,13.0,G08
+G09,Cesar,9.62,-73.59,0.0,9,1,1,50.0,G09
+G10,Atlantico sur,10.77,-74.76,0.0,10,1,4,6.0,G10
+G11,Neiva,2.93,-75.28,0.0,11,1,1,458.0,G11
+G12,Barranquilla norte C,11.01,-74.82,0.0,12,1,1,85.0,G12
+G13,Puerto Colombia,11.04,-74.91,0.0,13,1,1,-3.0,G13
+G14,Cartagena,10.41,-75.52,0.0,14,1,2,10.0,G14

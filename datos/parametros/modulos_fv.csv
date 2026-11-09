@@ -1,0 +1,15 @@
+modelo,fabricante,pmax_w,vmp_v,imp_a,voc_v,isc_a,gamma_pmax_pct_c,noct_c,eficiencia_pct,caras,tecnologia,bifacialidad_pct,degradacion_primer_anio_pct,degradacion_anual_pct,datasheet
+GCL-NT12R/66GDF-615,GCL,615.0,40.73,15.1,48.25,15.9,,,22.77,bifacial,doble vidrio,80.0,1.0,0.4,Panel_605-625W_GCL-NT12R66GDF.pdf
+GCL-NT12R/66GDF-625,GCL,625.0,41.12,15.2,48.55,16.0,,,23.14,bifacial,doble vidrio,80.0,1.0,0.4,Panel_605-625W_GCL-NT12R66GDF.pdf
+JAM66D45-610/LB,JA Solar,610.0,39.37,15.34,48.1,16.05,-0.29,45.0,22.6,bifacial,"tipo N, doble vidrio",80.0,1.0,0.4,Panel_605-630W_JA_JAM66D45LB.pdf
+JAM66D45-615/LB,JA Solar,615.0,39.96,15.39,48.3,16.1,-0.29,45.0,22.8,bifacial,"tipo N, doble vidrio",80.0,1.0,0.4,Panel_605-630W_JA_JAM66D45LB.pdf
+JAM72S30-545/MR,JA Solar,545.0,41.8,13.04,49.75,13.93,-0.35,45.0,21.1,Monofacial,Monocristalino PERC,,,,
+JAM72S30-550/MR,JA Solar,550.0,41.96,13.11,49.9,14.0,-0.35,45.0,21.3,Monofacial,Monocristalino PERC,,,,
+JKM585N-72HL4-V,Jinko Solar,585.0,42.52,13.76,51.16,14.55,-0.29,45.0,22.65,Monofacial,Monocristalino tipo N (TOPCon),,,,
+JKM630N-66HL4M-BDV,Jinko Solar,630.0,41.02,15.36,49.48,16.2,-0.29,,23.32,bifacial,"tipo N, doble vidrio",80.0,1.0,0.4,Panel_605-630W_TigerNeo_66HL4MBDV.pdf
+LR8-66HGD-615M,LONGi,615.0,40.71,15.11,48.58,16.0,-0.28,45.0,22.8,bifacial,doble vidrio,80.0,1.0,0.4,
+TSM-NEG19RC.20-620,Trina Solar,620.0,41.4,14.99,49.6,15.91,-0.29,43.0,23.0,bifacial,"tipo N i-TOPCon, doble vidrio",,1.0,0.4,
+TSM-NEG19RC.20-625,Trina Solar,625.0,,,,,-0.29,43.0,,bifacial,"tipo N i-TOPCon, doble vidrio",,1.0,0.4,
+TWMNF-66HD710,TW Solar,710.0,40.69,17.45,48.94,18.45,-0.28,45.0,22.9,bifacial,tipo N,80.0,1.0,0.4,
+ZXM8-TPLDD132-670,ZNShine,670.0,38.5,17.41,46.0,18.47,-0.34,43.0,21.57,bifacial,PERC,70.0,2.0,0.5,Panel_645-670W_ZNSHINE_ZXM8-TPLDD132.pdf
+ZXM8-TPLDD132-700,ZNShine,700.0,40.5,17.29,48.3,18.27,-0.3,43.0,22.53,bifacial,PERC,80.0,2.0,0.4,

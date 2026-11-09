@@ -1,0 +1,813 @@
+esquema,tabla,columna,tipo,orden
+meteo,archivos_importados,sha256,text,1
+meteo,archivos_importados,archivo,text,2
+meteo,archivos_importados,llamador,smallint,3
+meteo,archivos_importados,fuente,text,4
+meteo,archivos_importados,modelo,text,5
+meteo,archivos_importados,grupo,text,6
+meteo,archivos_importados,inicio,date,7
+meteo,archivos_importados,fin,date,8
+meteo,archivos_importados,run,timestamp with time zone,9
+meteo,archivos_importados,filas,integer,10
+meteo,archivos_importados,importado,timestamp with time zone,11
+meteo,bloques_no_disponibles,fuente,text,1
+meteo,bloques_no_disponibles,modelo,text,2
+meteo,bloques_no_disponibles,grupo,text,3
+meteo,bloques_no_disponibles,bloque,text,4
+meteo,bloques_no_disponibles,run,timestamp with time zone,5
+meteo,bloques_no_disponibles,motivo,text,6
+meteo,bloques_no_disponibles,detectado,timestamp with time zone,7
+meteo,celdas,grupo,text,1
+meteo,celdas,fuente,text,2
+meteo,celdas,modelo,text,3
+meteo,celdas,latitude,double precision,4
+meteo,celdas,longitude,double precision,5
+meteo,celdas,elevation,double precision,6
+meteo,celdas,primeracarga,timestamp with time zone,7
+meteo,celdas,ultimacarga,timestamp with time zone,8
+meteo,enso_oni,anio,smallint,1
+meteo,enso_oni,mes,smallint,2
+meteo,enso_oni,temporada,text,3
+meteo,enso_oni,sst_total,numeric,4
+meteo,enso_oni,oni,numeric,5
+meteo,enso_oni,cargatime,timestamp with time zone,6
+meteo,fuentes,fuente,text,1
+meteo,fuentes,proveedor,text,2
+meteo,fuentes,endpoint,text,3
+meteo,fuentes,tipo,text,4
+meteo,fuentes,resolucionespacial,text,5
+meteo,fuentes,resoluciontemporal,text,6
+meteo,fuentes,latencia,text,7
+meteo,fuentes,autenticacion,text,8
+meteo,fuentes,licencia,text,9
+meteo,fuentes,tabladestino,text,10
+meteo,fuentes,descripcion,text,11
+meteo,grupos,grupo,text,1
+meteo,grupos,zona,text,2
+meteo,grupos,latitude,double precision,3
+meteo,grupos,longitude,double precision,4
+meteo,grupos,diametrokm,double precision,5
+meteo,grupos,prioridad,smallint,6
+meteo,grupos,llamador,smallint,7
+meteo,grupos,nplantas,smallint,8
+meteo,grupos,ninversores,smallint,9
+meteo,grupos,criterio,text,10
+meteo,grupos,creado,timestamp with time zone,11
+meteo,ideam_estaciones,codigoestacion,text,1
+meteo,ideam_estaciones,nombreestacion,text,2
+meteo,ideam_estaciones,categoria,text,3
+meteo,ideam_estaciones,tecnologia,text,4
+meteo,ideam_estaciones,estado,text,5
+meteo,ideam_estaciones,departamento,text,6
+meteo,ideam_estaciones,municipio,text,7
+meteo,ideam_estaciones,latitud,double precision,8
+meteo,ideam_estaciones,longitud,double precision,9
+meteo,ideam_estaciones,altitud,double precision,10
+meteo,ideam_estaciones,cargatime,timestamp with time zone,11
+meteo,ideam_grupos_estaciones,grupo,text,1
+meteo,ideam_grupos_estaciones,codigoestacion,text,2
+meteo,ideam_grupos_estaciones,distanciakm,double precision,3
+meteo,ideam_observaciones,codigoestacion,text,1
+meteo,ideam_observaciones,codigosensor,text,2
+meteo,ideam_observaciones,datatime,timestamp with time zone,3
+meteo,ideam_observaciones,fechaobservacion,timestamp without time zone,4
+meteo,ideam_observaciones,valorobservado,double precision,5
+meteo,ideam_observaciones,cargatime,timestamp with time zone,6
+meteo,ideam_sensores,codigosensor,text,1
+meteo,ideam_sensores,descripcionsensor,text,2
+meteo,ideam_sensores,unidadmedida,text,3
+meteo,ideam_sensores,dataset,text,4
+meteo,modelos,fuente,text,1
+meteo,modelos,modelo,text,2
+meteo,modelos,descripcion,text,3
+meteo,modelos,resolucion,text,4
+meteo,modelos,disponibledesde,date,5
+meteo,modelos,nota,text,6
+meteo,nasa_power,grupo,text,1
+meteo,nasa_power,datatime,timestamp with time zone,2
+meteo,nasa_power,allsky_sfc_sw_dwn,double precision,3
+meteo,nasa_power,clrsky_sfc_sw_dwn,double precision,4
+meteo,nasa_power,allsky_sfc_sw_dni,double precision,5
+meteo,nasa_power,allsky_sfc_sw_diff,double precision,6
+meteo,nasa_power,allsky_kt,double precision,7
+meteo,nasa_power,t2m,double precision,8
+meteo,nasa_power,t2mdew,double precision,9
+meteo,nasa_power,rh2m,double precision,10
+meteo,nasa_power,ws10m,double precision,11
+meteo,nasa_power,wd10m,double precision,12
+meteo,nasa_power,ps,double precision,13
+meteo,nasa_power,prectotcorr,double precision,14
+meteo,nasa_power,cargatime,timestamp with time zone,15
+meteo,nsrdb_goes,grupo,text,1
+meteo,nsrdb_goes,datatime,timestamp with time zone,2
+meteo,nsrdb_goes,ghi,double precision,3
+meteo,nsrdb_goes,dni,double precision,4
+meteo,nsrdb_goes,dhi,double precision,5
+meteo,nsrdb_goes,clearsky_ghi,double precision,6
+meteo,nsrdb_goes,clearsky_dni,double precision,7
+meteo,nsrdb_goes,clearsky_dhi,double precision,8
+meteo,nsrdb_goes,cloud_type,double precision,9
+meteo,nsrdb_goes,air_temperature,double precision,10
+meteo,nsrdb_goes,relative_humidity,double precision,11
+meteo,nsrdb_goes,surface_pressure,double precision,12
+meteo,nsrdb_goes,wind_speed,double precision,13
+meteo,nsrdb_goes,total_precipitable_water,double precision,14
+meteo,nsrdb_goes,aod,double precision,15
+meteo,nsrdb_goes,solar_zenith_angle,double precision,16
+meteo,nsrdb_goes,cargatime,timestamp with time zone,17
+meteo,om_air_quality,grupo,text,1
+meteo,om_air_quality,modelo,text,2
+meteo,om_air_quality,datatime,timestamp with time zone,3
+meteo,om_air_quality,aerosol_optical_depth,double precision,4
+meteo,om_air_quality,dust,double precision,5
+meteo,om_air_quality,cargatime,timestamp with time zone,6
+meteo,om_archive,grupo,text,1
+meteo,om_archive,modelo,text,2
+meteo,om_archive,datatime,timestamp with time zone,3
+meteo,om_archive,shortwave_radiation,double precision,4
+meteo,om_archive,direct_radiation,double precision,5
+meteo,om_archive,diffuse_radiation,double precision,6
+meteo,om_archive,direct_normal_irradiance,double precision,7
+meteo,om_archive,terrestrial_radiation,double precision,8
+meteo,om_archive,temperature_2m,double precision,9
+meteo,om_archive,relative_humidity_2m,double precision,10
+meteo,om_archive,dew_point_2m,double precision,11
+meteo,om_archive,precipitation,double precision,12
+meteo,om_archive,cloud_cover,double precision,13
+meteo,om_archive,cloud_cover_low,double precision,14
+meteo,om_archive,cloud_cover_mid,double precision,15
+meteo,om_archive,cloud_cover_high,double precision,16
+meteo,om_archive,surface_pressure,double precision,17
+meteo,om_archive,wind_speed_10m,double precision,18
+meteo,om_archive,wind_direction_10m,double precision,19
+meteo,om_archive,wind_gusts_10m,double precision,20
+meteo,om_archive,sunshine_duration,double precision,21
+meteo,om_archive,vapour_pressure_deficit,double precision,22
+meteo,om_archive,cargatime,timestamp with time zone,23
+meteo,om_historical_forecast,grupo,text,1
+meteo,om_historical_forecast,modelo,text,2
+meteo,om_historical_forecast,datatime,timestamp with time zone,3
+meteo,om_historical_forecast,shortwave_radiation,double precision,4
+meteo,om_historical_forecast,direct_radiation,double precision,5
+meteo,om_historical_forecast,diffuse_radiation,double precision,6
+meteo,om_historical_forecast,direct_normal_irradiance,double precision,7
+meteo,om_historical_forecast,temperature_2m,double precision,8
+meteo,om_historical_forecast,relative_humidity_2m,double precision,9
+meteo,om_historical_forecast,dew_point_2m,double precision,10
+meteo,om_historical_forecast,precipitation,double precision,11
+meteo,om_historical_forecast,cloud_cover,double precision,12
+meteo,om_historical_forecast,cloud_cover_low,double precision,13
+meteo,om_historical_forecast,cloud_cover_mid,double precision,14
+meteo,om_historical_forecast,cloud_cover_high,double precision,15
+meteo,om_historical_forecast,surface_pressure,double precision,16
+meteo,om_historical_forecast,wind_speed_10m,double precision,17
+meteo,om_historical_forecast,cape,double precision,18
+meteo,om_historical_forecast,cargatime,timestamp with time zone,19
+meteo,om_previous_runs,grupo,text,1
+meteo,om_previous_runs,modelo,text,2
+meteo,om_previous_runs,previousday,smallint,3
+meteo,om_previous_runs,datatime,timestamp with time zone,4
+meteo,om_previous_runs,shortwave_radiation,double precision,5
+meteo,om_previous_runs,direct_normal_irradiance,double precision,6
+meteo,om_previous_runs,diffuse_radiation,double precision,7
+meteo,om_previous_runs,temperature_2m,double precision,8
+meteo,om_previous_runs,relative_humidity_2m,double precision,9
+meteo,om_previous_runs,cloud_cover,double precision,10
+meteo,om_previous_runs,precipitation,double precision,11
+meteo,om_previous_runs,wind_speed_10m,double precision,12
+meteo,om_previous_runs,cargatime,timestamp with time zone,13
+meteo,om_satellite,grupo,text,1
+meteo,om_satellite,modelo,text,2
+meteo,om_satellite,datatime,timestamp with time zone,3
+meteo,om_satellite,shortwave_radiation,double precision,4
+meteo,om_satellite,direct_radiation,double precision,5
+meteo,om_satellite,diffuse_radiation,double precision,6
+meteo,om_satellite,direct_normal_irradiance,double precision,7
+meteo,om_satellite,cargatime,timestamp with time zone,8
+meteo,om_single_runs,grupo,text,1
+meteo,om_single_runs,modelo,text,2
+meteo,om_single_runs,run,timestamp with time zone,3
+meteo,om_single_runs,datatime,timestamp with time zone,4
+meteo,om_single_runs,shortwave_radiation,double precision,5
+meteo,om_single_runs,direct_normal_irradiance,double precision,6
+meteo,om_single_runs,diffuse_radiation,double precision,7
+meteo,om_single_runs,temperature_2m,double precision,8
+meteo,om_single_runs,relative_humidity_2m,double precision,9
+meteo,om_single_runs,cloud_cover,double precision,10
+meteo,om_single_runs,cloud_cover_low,double precision,11
+meteo,om_single_runs,precipitation,double precision,12
+meteo,om_single_runs,wind_speed_10m,double precision,13
+meteo,om_single_runs,cape,double precision,14
+meteo,om_single_runs,cargatime,timestamp with time zone,15
+meteo,plantas_grupos,plantuuid,uuid,1
+meteo,plantas_grupos,grupo,text,2
+meteo,plantas_grupos,distanciakm,double precision,3
+meteo,v_cobertura,fuente,text,1
+meteo,v_cobertura,modelo,text,2
+meteo,v_cobertura,grupo,text,3
+meteo,v_cobertura,primerdato,timestamp with time zone,4
+meteo,v_cobertura,ultimodato,timestamp with time zone,5
+meteo,v_cobertura,filas,bigint,6
+meteo,v_cobertura,atrasohoras,numeric,7
+meteo,v_cobertura,ultimacarga,timestamp with time zone,8
+meteo,v_huecos,fuente,text,1
+meteo,v_huecos,modelo,text,2
+meteo,v_huecos,grupo,text,3
+meteo,v_huecos,previousday,smallint,4
+meteo,v_huecos,desde,timestamp with time zone,5
+meteo,v_huecos,hasta,timestamp with time zone,6
+meteo,v_huecos,duracion,interval,7
+meteo,v_huecos,pasosfaltantes,integer,8
+meteo,v_huecos,tipo,text,9
+meteo,variables,fuente,text,1
+meteo,variables,variable,text,2
+meteo,variables,unidad,text,3
+meteo,variables,tipovalor,text,4
+meteo,variables,marcatiempo,text,5
+meteo,variables,periodominutos,smallint,6
+meteo,variables,equivalente,text,7
+meteo,variables,descripcion,text,8
+telemetry,business_types,businesstype,smallint,1
+telemetry,business_types,description,character varying,2
+telemetry,cities,cityid,character varying,1
+telemetry,cities,cityname,character varying,2
+telemetry,cities,country,character varying,3
+telemetry,cities,latitude,double precision,4
+telemetry,cities,longitude,double precision,5
+telemetry,device_types,devicetype,smallint,1
+telemetry,device_types,description,character varying,2
+telemetry,devices,deviceuuid,uuid,1
+telemetry,devices,plantuuid,uuid,2
+telemetry,devices,devicetype,smallint,3
+telemetry,devices,devicemodel,smallint,4
+telemetry,devices,armversion,character varying,5
+telemetry,devices,dspversion,character varying,6
+telemetry,devices,ratedpower,double precision,7
+telemetry,devices,onlinestatus,smallint,8
+telemetry,devices,flag,smallint,9
+telemetry,devices_fv,deviceuuid,uuid,1
+telemetry,devices_fv,kwpdc,double precision,2
+telemetry,devices_fv,inclinacion,double precision,3
+telemetry,devices_fv,azimut,double precision,4
+telemetry,devices_fv,origen,text,5
+telemetry,devices_fv,excluir,boolean,6
+telemetry,devices_fv,motivoexclusion,text,7
+telemetry,devices_fv,actualizado,timestamp with time zone,8
+telemetry,devices_fv,nota,text,9
+telemetry,etl_ciclos,servicio,text,1
+telemetry,etl_ciclos,iniciotime,timestamp with time zone,2
+telemetry,etl_ciclos,fintime,timestamp with time zone,3
+telemetry,etl_ciclos,estado,text,4
+telemetry,etl_ciclos,duracions,double precision,5
+telemetry,etl_ciclos,elementos,integer,6
+telemetry,etl_ciclos,insertadas,integer,7
+telemetry,etl_ciclos,duplicadas,integer,8
+telemetry,etl_ciclos,rechazadas,integer,9
+telemetry,etl_ciclos,errores,integer,10
+telemetry,etl_ciclos,tokenorigen,text,11
+telemetry,etl_ciclos,sincronizacion,boolean,12
+telemetry,etl_ciclos,etapafallida,text,13
+telemetry,etl_ciclos,errortipo,text,14
+telemetry,etl_ciclos,errorcodigo,integer,15
+telemetry,etl_ciclos,errorresumen,text,16
+telemetry,etl_ciclos,errormensaje,text,17
+telemetry,etl_ciclos,tautenticacion,double precision,18
+telemetry,etl_ciclos,tconexionbd,double precision,19
+telemetry,etl_ciclos,tsincronizacion,double precision,20
+telemetry,etl_ciclos,tconsultas,double precision,21
+telemetry,etl_ciclos,tconsultamedia,double precision,22
+telemetry,etl_ciclos,tconsultamax,double precision,23
+telemetry,etl_ciclos,llamadasapi,integer,24
+telemetry,etl_ciclos,sondeos,integer,25
+telemetry,etl_ciclos,sondeoscondatos,integer,26
+telemetry,etl_ciclos,gapsresueltos,integer,27
+telemetry,etl_ciclos,gapsagotados,integer,28
+telemetry,etl_gaps,gapid,bigint,1
+telemetry,etl_gaps,deviceuuid,uuid,2
+telemetry,etl_gaps,inicio,timestamp with time zone,3
+telemetry,etl_gaps,fin,timestamp with time zone,4
+telemetry,etl_gaps,origen,text,5
+telemetry,etl_gaps,estado,text,6
+telemetry,etl_gaps,intentos,integer,7
+telemetry,etl_gaps,ultimointento,timestamp with time zone,8
+telemetry,etl_gaps,creacion,timestamp with time zone,9
+telemetry,etl_gaps,resolucion,timestamp with time zone,10
+telemetry,etl_gaps,nota,text,11
+telemetry,etl_incidencias,servicio,text,1
+telemetry,etl_incidencias,iniciotime,timestamp with time zone,2
+telemetry,etl_incidencias,orden,smallint,3
+telemetry,etl_incidencias,eventotime,timestamp with time zone,4
+telemetry,etl_incidencias,estado,text,5
+telemetry,etl_incidencias,etiqueta,text,6
+telemetry,etl_incidencias,etapa,text,7
+telemetry,etl_incidencias,motivo,text,8
+telemetry,etl_incidencias,plantuuid,uuid,9
+telemetry,etl_incidencias,deviceuuid,uuid,10
+telemetry,etl_incidencias,idhuella,text,11
+telemetry,etl_incidencias,errortipo,text,12
+telemetry,etl_incidencias,errorcodigo,integer,13
+telemetry,etl_incidencias,errorresumen,text,14
+telemetry,etl_incidencias,errormensaje,text,15
+telemetry,etl_incidencias,duracions,double precision,16
+telemetry,etl_incidencias,detalle,text,17
+telemetry,etl_servicios,servicio,text,1
+telemetry,etl_servicios,rutaapi,text,2
+telemetry,etl_servicios,tabladestino,text,3
+telemetry,etl_servicios,elemento,text,4
+telemetry,etl_servicios,descripcion,text,5
+telemetry,inverter_history,datatime,timestamp with time zone,1
+telemetry,inverter_history,deviceuuid,uuid,2
+telemetry,inverter_history,plantlocaltime,timestamp without time zone,3
+telemetry,inverter_history,devicestatus,smallint,4
+telemetry,inverter_history,acvoltage1,double precision,5
+telemetry,inverter_history,acvoltage2,double precision,6
+telemetry,inverter_history,acvoltage3,double precision,7
+telemetry,inverter_history,accurrent1,double precision,8
+telemetry,inverter_history,accurrent2,double precision,9
+telemetry,inverter_history,accurrent3,double precision,10
+telemetry,inverter_history,acfrequency1,double precision,11
+telemetry,inverter_history,acfrequency2,double precision,12
+telemetry,inverter_history,acfrequency3,double precision,13
+telemetry,inverter_history,acpower1,double precision,14
+telemetry,inverter_history,acpower2,double precision,15
+telemetry,inverter_history,acpower3,double precision,16
+telemetry,inverter_history,gridfrequency,double precision,17
+telemetry,inverter_history,totalactivepower,double precision,18
+telemetry,inverter_history,totalreactivepower,double precision,19
+telemetry,inverter_history,totalpowerfactor,double precision,20
+telemetry,inverter_history,invertertemperature,double precision,21
+telemetry,inverter_history,dailyyield,double precision,22
+telemetry,inverter_history,totalyield,double precision,23
+telemetry,inverter_history,dailyacoutput,double precision,24
+telemetry,inverter_history,totalacoutput,double precision,25
+telemetry,inverter_history,dailyacinput,double precision,26
+telemetry,inverter_history,totalacinput,double precision,27
+telemetry,inverter_history,mppttotalinputpower,double precision,28
+telemetry,inverter_history,mppt1voltage,double precision,29
+telemetry,inverter_history,mppt1current,double precision,30
+telemetry,inverter_history,mppt1power,double precision,31
+telemetry,inverter_history,mppt2voltage,double precision,32
+telemetry,inverter_history,mppt2current,double precision,33
+telemetry,inverter_history,mppt2power,double precision,34
+telemetry,inverter_history,mppt3voltage,double precision,35
+telemetry,inverter_history,mppt3current,double precision,36
+telemetry,inverter_history,mppt3power,double precision,37
+telemetry,inverter_history,mppt4voltage,double precision,38
+telemetry,inverter_history,mppt4current,double precision,39
+telemetry,inverter_history,mppt4power,double precision,40
+telemetry,inverter_history,mppt5voltage,double precision,41
+telemetry,inverter_history,mppt5current,double precision,42
+telemetry,inverter_history,mppt5power,double precision,43
+telemetry,inverter_history,mppt6voltage,double precision,44
+telemetry,inverter_history,mppt6current,double precision,45
+telemetry,inverter_history,mppt6power,double precision,46
+telemetry,inverter_history,mppt7voltage,double precision,47
+telemetry,inverter_history,mppt7current,double precision,48
+telemetry,inverter_history,mppt7power,double precision,49
+telemetry,inverter_history,mppt8voltage,double precision,50
+telemetry,inverter_history,mppt8current,double precision,51
+telemetry,inverter_history,mppt8power,double precision,52
+telemetry,inverter_history,mppt9voltage,double precision,53
+telemetry,inverter_history,mppt9current,double precision,54
+telemetry,inverter_history,mppt9power,double precision,55
+telemetry,inverter_history,mppt10voltage,double precision,56
+telemetry,inverter_history,mppt10current,double precision,57
+telemetry,inverter_history,mppt10power,double precision,58
+telemetry,inverter_history,mppt11voltage,double precision,59
+telemetry,inverter_history,mppt11current,double precision,60
+telemetry,inverter_history,mppt11power,double precision,61
+telemetry,inverter_history,mppt12voltage,double precision,62
+telemetry,inverter_history,mppt12current,double precision,63
+telemetry,inverter_history,mppt12power,double precision,64
+telemetry,inverter_history,pv1voltage,double precision,65
+telemetry,inverter_history,pv1current,double precision,66
+telemetry,inverter_history,pv1power,double precision,67
+telemetry,inverter_history,pv2voltage,double precision,68
+telemetry,inverter_history,pv2current,double precision,69
+telemetry,inverter_history,pv2power,double precision,70
+telemetry,inverter_history,pv3voltage,double precision,71
+telemetry,inverter_history,pv3current,double precision,72
+telemetry,inverter_history,pv3power,double precision,73
+telemetry,inverter_history,pv4voltage,double precision,74
+telemetry,inverter_history,pv4current,double precision,75
+telemetry,inverter_history,pv4power,double precision,76
+telemetry,inverter_history,pv5voltage,double precision,77
+telemetry,inverter_history,pv5current,double precision,78
+telemetry,inverter_history,pv5power,double precision,79
+telemetry,inverter_history,pv6voltage,double precision,80
+telemetry,inverter_history,pv6current,double precision,81
+telemetry,inverter_history,pv6power,double precision,82
+telemetry,inverter_history,pv7voltage,double precision,83
+telemetry,inverter_history,pv7current,double precision,84
+telemetry,inverter_history,pv7power,double precision,85
+telemetry,inverter_history,pv8voltage,double precision,86
+telemetry,inverter_history,pv8current,double precision,87
+telemetry,inverter_history,pv8power,double precision,88
+telemetry,inverter_history,pv9voltage,double precision,89
+telemetry,inverter_history,pv9current,double precision,90
+telemetry,inverter_history,pv9power,double precision,91
+telemetry,inverter_history,pv10voltage,double precision,92
+telemetry,inverter_history,pv10current,double precision,93
+telemetry,inverter_history,pv10power,double precision,94
+telemetry,inverter_history,pv11voltage,double precision,95
+telemetry,inverter_history,pv11current,double precision,96
+telemetry,inverter_history,pv11power,double precision,97
+telemetry,inverter_history,pv12voltage,double precision,98
+telemetry,inverter_history,pv12current,double precision,99
+telemetry,inverter_history,pv12power,double precision,100
+telemetry,inverter_history,pv13voltage,double precision,101
+telemetry,inverter_history,pv13current,double precision,102
+telemetry,inverter_history,pv13power,double precision,103
+telemetry,inverter_history,pv14voltage,double precision,104
+telemetry,inverter_history,pv14current,double precision,105
+telemetry,inverter_history,pv14power,double precision,106
+telemetry,inverter_history,pv15voltage,double precision,107
+telemetry,inverter_history,pv15current,double precision,108
+telemetry,inverter_history,pv15power,double precision,109
+telemetry,inverter_history,pv16voltage,double precision,110
+telemetry,inverter_history,pv16current,double precision,111
+telemetry,inverter_history,pv16power,double precision,112
+telemetry,inverter_history,pv17voltage,double precision,113
+telemetry,inverter_history,pv17current,double precision,114
+telemetry,inverter_history,pv17power,double precision,115
+telemetry,inverter_history,pv18voltage,double precision,116
+telemetry,inverter_history,pv18current,double precision,117
+telemetry,inverter_history,pv18power,double precision,118
+telemetry,inverter_history,pv19voltage,double precision,119
+telemetry,inverter_history,pv19current,double precision,120
+telemetry,inverter_history,pv19power,double precision,121
+telemetry,inverter_history,pv20voltage,double precision,122
+telemetry,inverter_history,pv20current,double precision,123
+telemetry,inverter_history,pv20power,double precision,124
+telemetry,inverter_history,pv21voltage,double precision,125
+telemetry,inverter_history,pv21current,double precision,126
+telemetry,inverter_history,pv21power,double precision,127
+telemetry,inverter_history,pv22voltage,double precision,128
+telemetry,inverter_history,pv22current,double precision,129
+telemetry,inverter_history,pv22power,double precision,130
+telemetry,inverter_history,pv23voltage,double precision,131
+telemetry,inverter_history,pv23current,double precision,132
+telemetry,inverter_history,pv23power,double precision,133
+telemetry,inverter_history,pv24voltage,double precision,134
+telemetry,inverter_history,pv24current,double precision,135
+telemetry,inverter_history,pv24power,double precision,136
+telemetry,inverter_history,gridpower,double precision,137
+telemetry,inverter_history,todayimportenergy,double precision,138
+telemetry,inverter_history,totalimportenergy,double precision,139
+telemetry,inverter_history,todayexportenergy,double precision,140
+telemetry,inverter_history,totalexportenergy,double precision,141
+telemetry,inverter_history,gridpowerm2,double precision,142
+telemetry,inverter_history,todayimportenergym2,double precision,143
+telemetry,inverter_history,totalimportenergym2,double precision,144
+telemetry,inverter_history,todayexportenergym2,double precision,145
+telemetry,inverter_history,totalexportenergym2,double precision,146
+telemetry,inverter_history,epsl1voltage,double precision,147
+telemetry,inverter_history,epsl1current,double precision,148
+telemetry,inverter_history,epsl1activepower,double precision,149
+telemetry,inverter_history,epsl1apparentpower,double precision,150
+telemetry,inverter_history,epsl2voltage,double precision,151
+telemetry,inverter_history,epsl2current,double precision,152
+telemetry,inverter_history,epsl2activepower,double precision,153
+telemetry,inverter_history,epsl2apparentpower,double precision,154
+telemetry,inverter_history,epsl3voltage,double precision,155
+telemetry,inverter_history,epsl3current,double precision,156
+telemetry,inverter_history,epsl3activepower,double precision,157
+telemetry,inverter_history,epsl3apparentpower,double precision,158
+telemetry,inverter_history,l1l2voltage,double precision,159
+telemetry,inverter_history,l2l3voltage,double precision,160
+telemetry,inverter_history,l1l3voltage,double precision,161
+telemetry,inverter_history,cargatime,timestamp with time zone,162
+telemetry,inverter_realtime,datatime,timestamp with time zone,1
+telemetry,inverter_realtime,deviceuuid,uuid,2
+telemetry,inverter_realtime,plantlocaltime,timestamp without time zone,3
+telemetry,inverter_realtime,devicestatus,smallint,4
+telemetry,inverter_realtime,acvoltage1,double precision,5
+telemetry,inverter_realtime,acvoltage2,double precision,6
+telemetry,inverter_realtime,acvoltage3,double precision,7
+telemetry,inverter_realtime,accurrent1,double precision,8
+telemetry,inverter_realtime,accurrent2,double precision,9
+telemetry,inverter_realtime,accurrent3,double precision,10
+telemetry,inverter_realtime,acfrequency1,double precision,11
+telemetry,inverter_realtime,acfrequency2,double precision,12
+telemetry,inverter_realtime,acfrequency3,double precision,13
+telemetry,inverter_realtime,acpower1,double precision,14
+telemetry,inverter_realtime,acpower2,double precision,15
+telemetry,inverter_realtime,acpower3,double precision,16
+telemetry,inverter_realtime,gridfrequency,double precision,17
+telemetry,inverter_realtime,totalactivepower,double precision,18
+telemetry,inverter_realtime,totalreactivepower,double precision,19
+telemetry,inverter_realtime,totalpowerfactor,double precision,20
+telemetry,inverter_realtime,invertertemperature,double precision,21
+telemetry,inverter_realtime,dailyyield,double precision,22
+telemetry,inverter_realtime,totalyield,double precision,23
+telemetry,inverter_realtime,dailyacoutput,double precision,24
+telemetry,inverter_realtime,totalacoutput,double precision,25
+telemetry,inverter_realtime,dailyacinput,double precision,26
+telemetry,inverter_realtime,totalacinput,double precision,27
+telemetry,inverter_realtime,mppttotalinputpower,double precision,28
+telemetry,inverter_realtime,mppt1voltage,double precision,29
+telemetry,inverter_realtime,mppt1current,double precision,30
+telemetry,inverter_realtime,mppt1power,double precision,31
+telemetry,inverter_realtime,mppt2voltage,double precision,32
+telemetry,inverter_realtime,mppt2current,double precision,33
+telemetry,inverter_realtime,mppt2power,double precision,34
+telemetry,inverter_realtime,mppt3voltage,double precision,35
+telemetry,inverter_realtime,mppt3current,double precision,36
+telemetry,inverter_realtime,mppt3power,double precision,37
+telemetry,inverter_realtime,mppt4voltage,double precision,38
+telemetry,inverter_realtime,mppt4current,double precision,39
+telemetry,inverter_realtime,mppt4power,double precision,40
+telemetry,inverter_realtime,mppt5voltage,double precision,41
+telemetry,inverter_realtime,mppt5current,double precision,42
+telemetry,inverter_realtime,mppt5power,double precision,43
+telemetry,inverter_realtime,mppt6voltage,double precision,44
+telemetry,inverter_realtime,mppt6current,double precision,45
+telemetry,inverter_realtime,mppt6power,double precision,46
+telemetry,inverter_realtime,mppt7voltage,double precision,47
+telemetry,inverter_realtime,mppt7current,double precision,48
+telemetry,inverter_realtime,mppt7power,double precision,49
+telemetry,inverter_realtime,mppt8voltage,double precision,50
+telemetry,inverter_realtime,mppt8current,double precision,51
+telemetry,inverter_realtime,mppt8power,double precision,52
+telemetry,inverter_realtime,mppt9voltage,double precision,53
+telemetry,inverter_realtime,mppt9current,double precision,54
+telemetry,inverter_realtime,mppt9power,double precision,55
+telemetry,inverter_realtime,mppt10voltage,double precision,56
+telemetry,inverter_realtime,mppt10current,double precision,57
+telemetry,inverter_realtime,mppt10power,double precision,58
+telemetry,inverter_realtime,mppt11voltage,double precision,59
+telemetry,inverter_realtime,mppt11current,double precision,60
+telemetry,inverter_realtime,mppt11power,double precision,61
+telemetry,inverter_realtime,mppt12voltage,double precision,62
+telemetry,inverter_realtime,mppt12current,double precision,63
+telemetry,inverter_realtime,mppt12power,double precision,64
+telemetry,inverter_realtime,pv1voltage,double precision,65
+telemetry,inverter_realtime,pv1current,double precision,66
+telemetry,inverter_realtime,pv1power,double precision,67
+telemetry,inverter_realtime,pv2voltage,double precision,68
+telemetry,inverter_realtime,pv2current,double precision,69
+telemetry,inverter_realtime,pv2power,double precision,70
+telemetry,inverter_realtime,pv3voltage,double precision,71
+telemetry,inverter_realtime,pv3current,double precision,72
+telemetry,inverter_realtime,pv3power,double precision,73
+telemetry,inverter_realtime,pv4voltage,double precision,74
+telemetry,inverter_realtime,pv4current,double precision,75
+telemetry,inverter_realtime,pv4power,double precision,76
+telemetry,inverter_realtime,pv5voltage,double precision,77
+telemetry,inverter_realtime,pv5current,double precision,78
+telemetry,inverter_realtime,pv5power,double precision,79
+telemetry,inverter_realtime,pv6voltage,double precision,80
+telemetry,inverter_realtime,pv6current,double precision,81
+telemetry,inverter_realtime,pv6power,double precision,82
+telemetry,inverter_realtime,pv7voltage,double precision,83
+telemetry,inverter_realtime,pv7current,double precision,84
+telemetry,inverter_realtime,pv7power,double precision,85
+telemetry,inverter_realtime,pv8voltage,double precision,86
+telemetry,inverter_realtime,pv8current,double precision,87
+telemetry,inverter_realtime,pv8power,double precision,88
+telemetry,inverter_realtime,pv9voltage,double precision,89
+telemetry,inverter_realtime,pv9current,double precision,90
+telemetry,inverter_realtime,pv9power,double precision,91
+telemetry,inverter_realtime,pv10voltage,double precision,92
+telemetry,inverter_realtime,pv10current,double precision,93
+telemetry,inverter_realtime,pv10power,double precision,94
+telemetry,inverter_realtime,pv11voltage,double precision,95
+telemetry,inverter_realtime,pv11current,double precision,96
+telemetry,inverter_realtime,pv11power,double precision,97
+telemetry,inverter_realtime,pv12voltage,double precision,98
+telemetry,inverter_realtime,pv12current,double precision,99
+telemetry,inverter_realtime,pv12power,double precision,100
+telemetry,inverter_realtime,pv13voltage,double precision,101
+telemetry,inverter_realtime,pv13current,double precision,102
+telemetry,inverter_realtime,pv13power,double precision,103
+telemetry,inverter_realtime,pv14voltage,double precision,104
+telemetry,inverter_realtime,pv14current,double precision,105
+telemetry,inverter_realtime,pv14power,double precision,106
+telemetry,inverter_realtime,pv15voltage,double precision,107
+telemetry,inverter_realtime,pv15current,double precision,108
+telemetry,inverter_realtime,pv15power,double precision,109
+telemetry,inverter_realtime,pv16voltage,double precision,110
+telemetry,inverter_realtime,pv16current,double precision,111
+telemetry,inverter_realtime,pv16power,double precision,112
+telemetry,inverter_realtime,pv17voltage,double precision,113
+telemetry,inverter_realtime,pv17current,double precision,114
+telemetry,inverter_realtime,pv17power,double precision,115
+telemetry,inverter_realtime,pv18voltage,double precision,116
+telemetry,inverter_realtime,pv18current,double precision,117
+telemetry,inverter_realtime,pv18power,double precision,118
+telemetry,inverter_realtime,pv19voltage,double precision,119
+telemetry,inverter_realtime,pv19current,double precision,120
+telemetry,inverter_realtime,pv19power,double precision,121
+telemetry,inverter_realtime,pv20voltage,double precision,122
+telemetry,inverter_realtime,pv20current,double precision,123
+telemetry,inverter_realtime,pv20power,double precision,124
+telemetry,inverter_realtime,pv21voltage,double precision,125
+telemetry,inverter_realtime,pv21current,double precision,126
+telemetry,inverter_realtime,pv21power,double precision,127
+telemetry,inverter_realtime,pv22voltage,double precision,128
+telemetry,inverter_realtime,pv22current,double precision,129
+telemetry,inverter_realtime,pv22power,double precision,130
+telemetry,inverter_realtime,pv23voltage,double precision,131
+telemetry,inverter_realtime,pv23current,double precision,132
+telemetry,inverter_realtime,pv23power,double precision,133
+telemetry,inverter_realtime,pv24voltage,double precision,134
+telemetry,inverter_realtime,pv24current,double precision,135
+telemetry,inverter_realtime,pv24power,double precision,136
+telemetry,inverter_realtime,gridpower,double precision,137
+telemetry,inverter_realtime,todayimportenergy,double precision,138
+telemetry,inverter_realtime,totalimportenergy,double precision,139
+telemetry,inverter_realtime,todayexportenergy,double precision,140
+telemetry,inverter_realtime,totalexportenergy,double precision,141
+telemetry,inverter_realtime,gridpowerm2,double precision,142
+telemetry,inverter_realtime,todayimportenergym2,double precision,143
+telemetry,inverter_realtime,totalimportenergym2,double precision,144
+telemetry,inverter_realtime,todayexportenergym2,double precision,145
+telemetry,inverter_realtime,totalexportenergym2,double precision,146
+telemetry,inverter_realtime,epsl1voltage,double precision,147
+telemetry,inverter_realtime,epsl1current,double precision,148
+telemetry,inverter_realtime,epsl1activepower,double precision,149
+telemetry,inverter_realtime,epsl1apparentpower,double precision,150
+telemetry,inverter_realtime,epsl2voltage,double precision,151
+telemetry,inverter_realtime,epsl2current,double precision,152
+telemetry,inverter_realtime,epsl2activepower,double precision,153
+telemetry,inverter_realtime,epsl2apparentpower,double precision,154
+telemetry,inverter_realtime,epsl3voltage,double precision,155
+telemetry,inverter_realtime,epsl3current,double precision,156
+telemetry,inverter_realtime,epsl3activepower,double precision,157
+telemetry,inverter_realtime,epsl3apparentpower,double precision,158
+telemetry,inverter_realtime,l1l2voltage,double precision,159
+telemetry,inverter_realtime,l2l3voltage,double precision,160
+telemetry,inverter_realtime,l1l3voltage,double precision,161
+telemetry,inverter_realtime,cargatime,timestamp with time zone,162
+telemetry,meter_history,datatime,timestamp with time zone,1
+telemetry,meter_history,deviceuuid,uuid,2
+telemetry,meter_history,plantlocaltime,timestamp without time zone,3
+telemetry,meter_history,importenergy,double precision,4
+telemetry,meter_history,exportenergy,double precision,5
+telemetry,meter_history,totalactivepower,double precision,6
+telemetry,meter_history,totalreactivepower,double precision,7
+telemetry,meter_history,totalapparentpower,double precision,8
+telemetry,meter_history,powerfactor,double precision,9
+telemetry,meter_history,gridfrequency,double precision,10
+telemetry,meter_history,acfrequency1,double precision,11
+telemetry,meter_history,acfrequency2,double precision,12
+telemetry,meter_history,acfrequency3,double precision,13
+telemetry,meter_history,l1voltage,double precision,14
+telemetry,meter_history,l1current,double precision,15
+telemetry,meter_history,l1activepower,double precision,16
+telemetry,meter_history,l1reactivepower,double precision,17
+telemetry,meter_history,l2voltage,double precision,18
+telemetry,meter_history,l2current,double precision,19
+telemetry,meter_history,l2activepower,double precision,20
+telemetry,meter_history,l2reactivepower,double precision,21
+telemetry,meter_history,l3voltage,double precision,22
+telemetry,meter_history,l3current,double precision,23
+telemetry,meter_history,l3activepower,double precision,24
+telemetry,meter_history,l3reactivepower,double precision,25
+telemetry,meter_history,cargatime,timestamp with time zone,26
+telemetry,meter_realtime,datatime,timestamp with time zone,1
+telemetry,meter_realtime,deviceuuid,uuid,2
+telemetry,meter_realtime,plantlocaltime,timestamp without time zone,3
+telemetry,meter_realtime,importenergy,double precision,4
+telemetry,meter_realtime,exportenergy,double precision,5
+telemetry,meter_realtime,totalactivepower,double precision,6
+telemetry,meter_realtime,totalreactivepower,double precision,7
+telemetry,meter_realtime,totalapparentpower,double precision,8
+telemetry,meter_realtime,powerfactor,double precision,9
+telemetry,meter_realtime,gridfrequency,double precision,10
+telemetry,meter_realtime,acfrequency1,double precision,11
+telemetry,meter_realtime,acfrequency2,double precision,12
+telemetry,meter_realtime,acfrequency3,double precision,13
+telemetry,meter_realtime,l1voltage,double precision,14
+telemetry,meter_realtime,l1current,double precision,15
+telemetry,meter_realtime,l1activepower,double precision,16
+telemetry,meter_realtime,l1reactivepower,double precision,17
+telemetry,meter_realtime,l2voltage,double precision,18
+telemetry,meter_realtime,l2current,double precision,19
+telemetry,meter_realtime,l2activepower,double precision,20
+telemetry,meter_realtime,l2reactivepower,double precision,21
+telemetry,meter_realtime,l3voltage,double precision,22
+telemetry,meter_realtime,l3current,double precision,23
+telemetry,meter_realtime,l3activepower,double precision,24
+telemetry,meter_realtime,l3reactivepower,double precision,25
+telemetry,meter_realtime,cargatime,timestamp with time zone,26
+telemetry,modulos_fv,modelo,text,1
+telemetry,modulos_fv,fabricante,text,2
+telemetry,modulos_fv,pmax_w,double precision,3
+telemetry,modulos_fv,vmp_v,double precision,4
+telemetry,modulos_fv,imp_a,double precision,5
+telemetry,modulos_fv,voc_v,double precision,6
+telemetry,modulos_fv,isc_a,double precision,7
+telemetry,modulos_fv,gamma_pmax_pct_c,double precision,8
+telemetry,modulos_fv,noct_c,double precision,9
+telemetry,modulos_fv,eficiencia_pct,double precision,10
+telemetry,modulos_fv,caras,text,11
+telemetry,modulos_fv,tecnologia,text,12
+telemetry,modulos_fv,bifacialidad_pct,double precision,13
+telemetry,modulos_fv,degradacion_primer_anio_pct,double precision,14
+telemetry,modulos_fv,degradacion_anual_pct,double precision,15
+telemetry,modulos_fv,datasheet,text,16
+telemetry,plant_realtime,datatime,timestamp with time zone,1
+telemetry,plant_realtime,plantuuid,uuid,2
+telemetry,plant_realtime,plantlocaltime,timestamp without time zone,3
+telemetry,plant_realtime,dailyyield,double precision,4
+telemetry,plant_realtime,totalyield,double precision,5
+telemetry,plant_realtime,dailycharged,double precision,6
+telemetry,plant_realtime,totalcharged,double precision,7
+telemetry,plant_realtime,dailydischarged,double precision,8
+telemetry,plant_realtime,totaldischarged,double precision,9
+telemetry,plant_realtime,dailyimported,double precision,10
+telemetry,plant_realtime,totalimported,double precision,11
+telemetry,plant_realtime,dailyexported,double precision,12
+telemetry,plant_realtime,totalexported,double precision,13
+telemetry,plant_realtime,dailyearnings,double precision,14
+telemetry,plant_realtime,totalearnings,double precision,15
+telemetry,plant_realtime,cargatime,timestamp with time zone,16
+telemetry,plantas_eventos,plantuuid,uuid,1
+telemetry,plantas_eventos,tipo,text,2
+telemetry,plantas_eventos,desde,date,3
+telemetry,plantas_eventos,hasta,date,4
+telemetry,plantas_eventos,limite_w,double precision,5
+telemetry,plantas_eventos,detalle,text,6
+telemetry,plantas_eventos,fuente,text,7
+telemetry,plantas_eventos,registrado,timestamp with time zone,8
+telemetry,plantas_eventos,conformidad_or,date,9
+telemetry,plantas_eventos,vigente,boolean,10
+telemetry,plantas_fv,plantuuid,uuid,1
+telemetry,plantas_fv,departamento,text,2
+telemetry,plantas_fv,ciudad,text,3
+telemetry,plantas_fv,region_natural,text,4
+telemetry,plantas_fv,altitud_dem_m,double precision,5
+telemetry,plantas_fv,altitud_ge_m,double precision,6
+telemetry,plantas_fv,tipo,text,7
+telemetry,plantas_fv,paneles,integer,8
+telemetry,plantas_fv,caras_panel,text,9
+telemetry,plantas_fv,material_celdas,text,10
+telemetry,plantas_fv,modulo,text,11
+telemetry,plantas_fv,wp_panel,double precision,12
+telemetry,plantas_fv,kwp_dc,double precision,13
+telemetry,plantas_fv,paneles_origen,text,14
+telemetry,plantas_fv,wp_panel_origen,text,15
+telemetry,plantas_fv,kwp_dc_origen,text,16
+telemetry,plantas_fv,tipo_origen,text,17
+telemetry,plantas_fv,inversor_externo,text,18
+telemetry,plantas_fv_caras,plantuuid,uuid,1
+telemetry,plantas_fv_caras,cara,smallint,2
+telemetry,plantas_fv_caras,azimut,double precision,3
+telemetry,plantas_fv_caras,inclinacion,double precision,4
+telemetry,plantas_fv_caras,paneles,integer,5
+telemetry,plantas_fv_caras,fraccion,double precision,6
+telemetry,plantas_fv_caras,techo,text,7
+telemetry,plantas_fv_etapas,plantuuid,uuid,1
+telemetry,plantas_fv_etapas,desde,date,2
+telemetry,plantas_fv_etapas,paneles,integer,3
+telemetry,plants,plantuuid,uuid,1
+telemetry,plants,cityid,character varying,2
+telemetry,plants,businesstype,smallint,3
+telemetry,plants,batterycapacity,double precision,4
+telemetry,plants,pvcapacity,double precision,5
+telemetry,plants,createtime,timestamp with time zone,6
+telemetry,plants,planttimezone,character varying,7
+telemetry,plants,plantstate,smallint,8
+telemetry,plants,electricitypriceunit,character varying,9
+telemetry,plants,latitude,double precision,10
+telemetry,plants,longitude,double precision,11
+telemetry,plants,altitude,numeric,12
+telemetry,v_estado_dispositivos,deviceuuid,uuid,1
+telemetry,v_estado_dispositivos,plantuuid,uuid,2
+telemetry,v_estado_dispositivos,devicetype,smallint,3
+telemetry,v_estado_dispositivos,onlinestatus,smallint,4
+telemetry,v_estado_dispositivos,ultimahistorico,timestamp with time zone,5
+telemetry,v_estado_dispositivos,atrasohoras,numeric,6
+telemetry,v_estado_dispositivos,ultimarealtime,timestamp with time zone,7
+telemetry,v_estado_dispositivos,modoesperado,text,8
+telemetry,v_estado_dispositivos,gapspendientes,integer,9
+telemetry,v_etl_gaps,gapid,bigint,1
+telemetry,v_etl_gaps,deviceuuid,uuid,2
+telemetry,v_etl_gaps,inicio,timestamp with time zone,3
+telemetry,v_etl_gaps,fin,timestamp with time zone,4
+telemetry,v_etl_gaps,origen,text,5
+telemetry,v_etl_gaps,estado,text,6
+telemetry,v_etl_gaps,intentos,integer,7
+telemetry,v_etl_gaps,ultimointento,timestamp with time zone,8
+telemetry,v_etl_gaps,creacion,timestamp with time zone,9
+telemetry,v_etl_gaps,resolucion,timestamp with time zone,10
+telemetry,v_etl_gaps,nota,text,11
+telemetry,v_etl_gaps,devicetype,smallint,12
+telemetry,v_etl_gaps,esperados,integer,13
+telemetry,v_etl_gaps,presentes,integer,14
+telemetry,v_etl_gaps,faltantes,integer,15
+telemetry,v_etl_gaps,haydatosdespues,boolean,16
+telemetry,v_nomenclatura,plantuuid,uuid,1
+telemetry,v_nomenclatura,codigo_planta,text,2
+telemetry,v_nomenclatura,deviceuuid,uuid,3
+telemetry,v_nomenclatura,numero,bigint,4
+telemetry,v_nomenclatura,total,bigint,5
+telemetry,v_nomenclatura,primer_dato,timestamp with time zone,6
+telemetry,v_nomenclatura,codigo_inversor,text,7
+telemetry,v_sugerencia_ciudad,plantuuid,uuid,1
+telemetry,v_sugerencia_ciudad,cityidactual,character varying,2
+telemetry,v_sugerencia_ciudad,cityidsugerida,character varying,3
+telemetry,v_sugerencia_ciudad,citynamesugerida,character varying,4
+telemetry,v_sugerencia_ciudad,distanciakm,numeric,5
+telemetry,v_sugerencia_ciudad,difiere,boolean,6

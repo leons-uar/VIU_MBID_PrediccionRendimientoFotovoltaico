@@ -1,0 +1,22 @@
+plantuuid,tipo,desde,hasta,limite_w,conformidad_or,vigente,detalle,localidad
+P01,control_exportacion,2025-04-27,,0.0,2025-04-30,False,"inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2025-04-30 (cota inferior del fin); sin límite de exportación configurado (instalador, 2026-11-07)",G01
+P07,control_exportacion,2025-05-30,,0.0,2025-07-02,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2025-07-02 (cota inferior del fin),G01
+P04,control_exportacion,2025-01-27,,0.0,2025-06-03,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2025-06-03 (cota inferior del fin),G02
+P04,reparacion,2025-09-03,2025-09-16,,,False,"reemplazo de 20 paneles dañados por la caída de un objeto, por 20 de la misma familia; sin ampliación. Los dos inversores no reportan del 3 al 16 de septiembre",G02
+P02,control_exportacion,2025-02-13,,0.0,2025-06-20,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2025-06-20 (cota inferior del fin),G03
+P23,control_exportacion,2026-09-04,,0.0,,True,inyección cero por legalización (CREG 174/2021); sigue activa: trámite ante el operador de red en curso; sin fecha para el medidor bidireccional,G03
+P20,control_exportacion,2026-09-15,,0.0,,True,inyección cero por legalización (CREG 174/2021); sigue activa: trámite ante el operador de red en curso; sin fecha para el medidor bidireccional,G03
+P03,control_exportacion,2025-10-28,,0.0,,False,inyección cero por legalización (CREG 174/2021); excedentes aprobados en agosto de 2026,G03
+P03,otro,2025-10-28,,,,True,"string desconectado en P03I0103 (produce 10 % menos), verificado por el propietario",G03
+P22,control_exportacion,2026-06-27,,0.0,,True,inyección cero por legalización (CREG 174/2021); sigue activa: sin medidor bidireccional,G04
+P11,control_exportacion,2025-08-16,,0.0,2025-11-27,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2025-11-27 (cota inferior del fin),G04
+P13,control_exportacion,2025-09-11,,0.0,2026-02-25,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2026-02-25 (cota inferior del fin),G05
+P17,control_exportacion,2026-05-25,,0.0,2026-05-14,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2026-05-14 (cota inferior del fin),G05
+P05,control_exportacion,2025-03-01,,0.0,2025-11-04,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2025-11-04 (cota inferior del fin),G06
+P10,control_exportacion,2025-07-09,2026-01-20,0.0,,False,inyección cero por legalización (CREG 174/2021); limitada hasta el 2026-01-20,G07
+P06,control_exportacion,2025-03-02,,0.0,,True,"inyección cero por legalización (CREG 174/2021); sigue activa: trámite ante el operador de red en curso, sin medidor bidireccional",G08
+P16,control_exportacion,2026-02-15,,0.0,,True,inyección cero por legalización (CREG 174/2021); sigue activa: visita de protecciones hecha; medidor bidireccional en parametrización,G10
+P16,otro,2026-02-15,,,,True,"string desconectado en P16I0404 (produce la mitad), verificado por el propietario",G10
+P14,control_exportacion,2025-09-18,,0.0,,False,inyección cero por legalización (CREG 174/2021); exporta desde el día en que el operador de red instaló el medidor,G11
+P18,control_exportacion,2026-05-26,,0.0,2026-06-11,False,inyección cero por legalización (CREG 174/2021); conformidad del operador de red el 2026-06-11 (cota inferior del fin),G12
+P21,control_exportacion,2026-09-27,,0.0,,True,inyección cero por legalización (CREG 174/2021); sigue activa: sin medidor bidireccional,G14

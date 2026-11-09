@@ -1,0 +1,527 @@
+1. JA SOLAR, Harvest the Sunshine 630W
+1.1. JAM66D45 LB, Módulo Bifacial Tipo N– Doble Vidrio
+1.2. 12 años de garantía de producto 
+1.3. 30 años de garantía de salida de potencial lineal
+1.4. 1% de degradación en el primer año
+1.5. 0.4 Degradación Anual en 30 años
+Grafica (Muestra una grafica con eje "X (Años de 1 a 30)" y eje "Y (del 80% al 100%)") de comparacion de rendimiento entre el modulo Bifacial y su competencia de modulo estandar, tal que:
+- Garantía de rendimiento lineal del módulo doble vidrio Bifacial tipo N (Dibuja una linea recta de pendiente que inicia en 100% en el año 1 y termina en 87.4% en el año 30).
+- Garantía de rendimiento lineal Módulo estándar (Dibuja una linea recta de pendiente que inicia en 99% en el año 1 y termina en 83.1% en el año 30).
+
+1.6. PARÁMETRO MECÁNICOS 	
+Celda	Mono
+Peso 	33.1 kg
+Dimensiones	2382±2mm x 1134±2mm x 30±1mm
+No. de celdas	132 (6x22)
+Vidrio Frontal/Vidrio Trasero	2mm/2mm
+
+1.7. Comprehensive Certificates
+- IEC 61215, IEC 61730, UL 61215, UL 61730
+- ISO 2015:9001 Sistemas de gestión de la calidad
+- ISO 2015:14001 Sistemas de gestión Medioambiental
+- ISO 45001:2018 Sistemas de gestión de la salud y la seguridad en el trabajo
+- IEC 2019:62941 Módulos fotovoltaicos terrestres (FV) - Sistema de calidad para la fabricación de Módulos FV
+
+1.8. PARÁMETROS ELÉCTRICOS EN STC
+TIPO	JAM66D45-605/LB	JAM66D45-610/LB	JAM66D45-615/LB	JAM66D45-620/LB	JAM66D45-625/LB	JAM66D45-630/LB
+Potencia Nominal Máxima (Pmax) [W]	605	610	615	620	625	630
+Voltaje de Circuito Abierto (Voc) [V]	47.9	48.1	48.3	48.5	48.7	48.9
+Voltaje de Potencia Máxima (Vmp) [V]	39.6	39.37	39.96	40.21	40.45	40.7
+Corriente de Cortocircuito (Isc) [A]	16	16.05	16.1	16.13	16.15	16.18
+Corriente de Potencia Máxima (Imp) [A]	15.28	15.34	15.39	15.42	15.45	15.48
+Eficiencia del Módulo [%]	22.4	22.6	22.8	23	23.1	23.3
+Tolerancia de Potencia	0~+3%	0~+3%	0~+3%	0~+3%	0~+3%	0~+3%
+Coeficiente de temperatura de Isc(α_Isc)	+0.045%/°C	+0.045%/°C	+0.045%/°C	+0.045%/°C	+0.045%/°C	+0.045%/°C
+Coeficiente de temperatura de Voc (β_Voc)	-0.250%/°C	-0.250%/°C	-0.250%/°C	-0.250%/°C	-0.250%/°C	-0.250%/°C
+Coeficiente de temperatura de Pmax (γ_Pmp)	-0.290%/°C	-0.290%/°C	-0.290%/°C	-0.290%/°C	-0.290%/°C	-0.290%/°C
+
+* STC: Irradiancia 1000W/m2, temperatura de la celda 25°C, AM1.5G
+* Observación: Los datos eléctricos de este catálogo no se refieren a un solo módulo y no forman parte de la oferta. Sólo sirven para comparar diferentes tipos de módulos
+
+1.9.  CARACTERÍSTICAS ELÉCTRICAS CON UN 10% DE IRRADIACIÓN SOLAR
+TIPO	JAM66D45-605/LB	JAM66D45-610/LB	JAM66D45-615/LB	JAM66D45-620/LB	JAM66D45-625/LB	JAM66D45-630/LB
+Potencia Nominal Máxima (Pmax) [W]	653	659	664	670	675	680
+Voltaje de Circuito Abierto (Voc) [V]	47.9	48.1	48.3	48.5	48.7	48.9
+Voltaje de Potencia Máxima (Vmp) [V]	39.6	39.77	39.96	40.21	40.45	40.7
+Corriente de Cortocircuito (Isc) [A]	17.28	17.33	17.39	17.42	17.44	17.47
+Corriente de Potencia Máxima (Imp) [A]	16.5	16.56	16.62	16.65	16.69	16.72
+Ratio Irradiación (trasero/frontal)			10%			
+
+*Para las instalaciones de Nextracker, carga estática máxima, por favor tome como referencia la carta de aprobación de compatibilidad entre JA Solar y Nextracker
+
+
+
+1.10. CONDICIONES DE FUNCIONAMIENTO
+Voltaje máximo del sistema: 1500V DC
+Temperatura de funcionamiento: -40°C~+85°C
+Capacidad máxima de los fusibles de la serie: 35 A
+NOCT: 45±2°C
+Bifacialidad: 80±5%
+
+
+
+2. GCL-NT12R/66GDF 700-720 W - Bifacial Dual Glass Monocrystalline Module
+2.1. Maximum Power: 720 W
+2.2. Maximum Module Efficiency: 23.18%
+2.3. Power Output Guarantee: 0-+5W
+
+2.4. CCL Delivers Reliable Performance Over Time
+- World-class manufacturer of crystalline silicon photovoltaic modules
+- Fully automatic facility and World-class technology
+- Rigorous quality control to meet the highest standard: ISO 9001, ISO 14001 and ISO 45001
+- Tested for harsh environments (salt mist, ammonia corrosion and sand blowing test: IEC 61701, IEC 62716, DIN EN 60068-2- 68)
+- Long term reliability tests
+- 2×100% EL inspection ensuring defect-free modules
+
+2.5. Linear Performance Warranty
+12 Year Product Warranty
+30 Year Linear Power Warranty
+0.40% Annual Degradation Over 30 years
+
+* La grafica muestra que inicia con un rendimiento del 99% en el año 1 y mediante una pendiente lineal termina en el año 30 en 87.4% de rendimiento.
+
+2.6. Electrical Specification (STC*)
+Maximum Power	Pmax[W)	700	705	710	715	720
+Maximum Power Voltage	Vmp[V)	40.06	40.27	40.46	40.65	40.84
+Maximum Power Current	Imp[A)	17.47	17.51	17.55	17.59	17.63
+Open Circuit Voltage	Voc[V]	47.74	47.93	48.12	48.36	48.58
+Short Circuit Current	Isc[A)	18.38	18.42	18.46	18.51	18.55
+Module Efficiency	[%]	22.53	22.7	22.86	23.02	23.18
+
+* Irradiance 1000W/m2, Cell Temperature 25C, Air Mass 1.5
+
+2.7. Electrical characteristics with different power bin (reference to 10% Irradiance ratio)
+Maximum Power	Pmax (W)	755.9	761.5	766.7	772.4	777.6
+Maximum Power Voltage	Vmp (V)	40.06	40.27	40.46	40.65	40.84
+Maximum Power Current	Imp (A)	18.87	18.91	18.95	19	19.04
+Open Circuit Voltage	Voc(V)	47.74	47.93	48.12	48.36	48.58
+Short Circuit Current	Isc (A)	19.85	19.89	19.94	19.99	20.03
+
+2.8. CONDICIONES DE FUNCIONAMIENTO	
+Voltaje máximo del sistema: 1500V DC
+Temperatura de funcionamiento: -40°C~+85°C
+Capacidad máxima de los fusibles de la serie: 35 A
+Bifacialidad: 80±5%
+
+2.9. Mechanical Data	
+Number of Cells	132 cells (6X22)
+Dimensions Of Module L X N X H (mm)	2384 X 1303 X 33 mm
+Weight (kgl	38.3 kg
+Frant Side Class	2mm (0.08 inches), Anti-Reflection Coating
+Back Side Glass	2mm (0.08 inches), Heat Strengthened Glass
+Frame	Anodized aluminium alloy
+
+
+
+3. GCL-NT12R/66GDF 605-625 W - Bifacial Dual Glass Monocrystalline Module
+3.1. Maximum Power: 625 W
+3.2. Maximum Module Efficiency: 23.14%
+3.3. Power Output Guarantee: 0-+5W
+
+3.4. CCL Delivers Reliable Performance Over Time
+- World-class manufacturer of crystalline silicon photovoltaic modules
+- Fully automatic facility and World-class technology
+- Rigorous quality control to meet the highest standard: ISO 9001, ISO 14001 and ISO 45001
+- Tested for harsh environments (salt mist, ammonia corrosion and sand blowing test: IEC 61701, IEC 62716, DIN EN 60068-2- 68)
+- Long term reliability tests
+- 2×100% EL inspection ensuring defect-free modules
+
+3.5. Linear Performance Warranty
+12 Year Product Warranty
+30 Year Linear Power Warranty
+0.40% Annual Degradation Over 30 years
+
+* La grafica muestra que inicia con un rendimiento del 99% en el año 1 y mediante una pendiente lineal termina en el año 30 en 87.4% de rendimiento.
+
+3.6. Electrical Specification (STC*)
+Maximum Power	Pmax[W)	605	610	615	620	625
+Maximum Power Voltage	Vmp[V)	40.34	40.53	40.73	40.93	41.12
+Maximum Power Current	Imp[A)	15	15.05	15.1	15.15	15.2
+Open Circuit Voltage	Voc[V]	47.95	48.1	48.25	48.4	48.55
+Short Circuit Current	Isc[A)	15.8	15.85	15.9	15.95	16
+Module Efficiency	[%]	22.4	22.58	22.77	22.95	23.14
+
+* Irradiance 1000W/m2, Cell Temperature 25C, Air Mass 1.5
+
+3.7. Electrical characteristics with different power bin (reference to 10% Irradiance ratio)
+Maximum Power	Pmax (W)	653.5	658.6	664.3	669.6	675.2
+Maximum Power Voltage	Vmp (V)	40.34	40.53	40.73	40.93	41.12
+Maximum Power Current	Imp (A)	16.2	16.25	16.31	16.36	16.42
+Open Circuit Voltage	Voc(V)	47.95	48.1	48.25	48.4	48.55
+Short Circuit Current	Isc (A)	17.06	17.12	17.17	17.23	17.28
+
+3.8. CONDICIONES DE FUNCIONAMIENTO	
+Voltaje máximo del sistema: 1500V DC
+Temperatura de funcionamiento: -40°C~+85°C
+Capacidad máxima de los fusibles de la serie: 35 A
+Bifacialidad: 80±5%
+
+3.9. Mechanical Data	
+Number of Cells	132 cells (6X22)
+Dimensions Of Module L X N X H (mm)	2382 X 1134 X 30 mm
+Weight (kgl	32.6 kg
+Frant Side Class	2mm (0.08 inches), Heat Strengthened Glass
+Back Side Glass	2mm (0.08 inches), Heat Strengthened Glass
+Frame	Anodized aluminium alloy
+
+4.5. Mechanical Characteristics	
+Cell Type	N- type Mono-crystalline
+No. of cells	132（66×2）
+Dimensions	2382×1134×30 mm
+Weight	32.4 kg
+Front Glass	2mm (0.08 inches), Anti-Reflection Coating
+Back Glass	2mm (0.08 inches), Heat Strengthened Glass
+Frame	Anodized Aluminium Alloy
+
+
+
+
+4. Tiger Neo, GGHL4M-BDV, 605-630 W
+Bifacial Module With Dual Glass
+N-Type
+JKM605-630N-66HL4M-BDV-F3-EN
+
+4.1. Linear Performance Warranty
+12 Year Product Warranty
+30 Year Linear Power Warranty
+1% First-year Degradation
+0.40% Annual Degradation Over 30 years
+
+* La grafica muestra que inicia con un rendimiento del 99% en el año 1 y mediante una pendiente lineal termina en el año 30 en 87.4% de rendimiento.
+
+- IEC61215:2021 / IEC61730:2023
+- IEC61701 / IEC62716 / IEC60068 / IEC62804
+- ISO9001:2015: Quality Management System
+- ISO14001:2015: Environment Management System
+- ISO45001:2018: Occupational health and safety management systems
+
+4.2. Specifications (STC)
+Maximum Power - Pmax [Wp]	605	610	615	620	625	630
+Maximum Power Voltage - Vmp [V]	40.31	40.46	40.6	40.74	40.88	41.02
+Maximum Power Current - Imp [A]	15.01	15.08	15.15	15.22	15.29	15.36
+Open-circuit Voltage - Voc [V]	48.48	48.68	48.88	49.08	49.28	49.48
+Short-circuit Current - Isc [A]	15.9	15.96	16.02	16.08	16.14	16.2
+Module Efficiency STC [%]	22.4	22.58	22.77	22.95	23.14	23.32
+Power Tolerance	0~+3%	0~+3%	0~+3%	0~+3%	0~+3%	0~+3%
+Temperature Coefficients of Pmax	-0.29 %/℃	-0.29 %/℃	-0.29 %/℃	-0.29 %/℃	-0.29 %/℃	-0.29 %/℃
+Temperature Coefficients of Voc	-0.25%/℃	-0.25%/℃	-0.25%/℃	-0.25%/℃	-0.25%/℃	-0.25%/℃
+Temperature Coefficients of Isc	0.045 %/°C	0.045 %/°C	0.045 %/°C	0.045 %/°C	0.045 %/°C	0.045 %/°C
+
+* STC: Irradiance 1000W/m2, Cell Temperature 25C, AM=1.5
+
+4.3. Specifications (BNPI)
+Maximum Power - Pmax [Wp]	668	674	679	685	690	696
+Maximum Power Voltage - Vmp [V]	40.29	40.46	40.59	40.75	40.88	41.04
+Maximum Power Current - Imp [A]	16.58	16.66	16.73	16.81	16.88	16.95
+Open-circuit Voltage - Voc [V]	48.46	48.66	48.86	49.06	49.26	49.46
+Short-circuit Current - Isc [A]	17.56	17.64	17.7	17.77	17.83	17.9
+
+4.4. Application Conditions	
+Operating Temperature: -40 °C ~ +70 °C
+Maximum System Voltage: 1500 VDC (IEC)
+Maximum Series Fuse Rating: 35 A
+Bifaciality Coefficent: φVoc: 98±5 %, φIsc: 80±5 %, φPmax: 80±5 %
+
+
+
+
+5. Tiger Neo III, 66QL6-BDX, 645-670 W
+Bifacial Module
+N-Type
+JKM605-630N-66HL4M-BDV-F3-EN
+
+5.1. Linear Performance Warranty
+12 Year Product Warranty
+30 Year Linear Power Warranty
+1% First-year Degradation
+0.35% Annual Degradation Over 30 years
+
+* La grafica muestra que inicia con un rendimiento del 99% en el año 1 y mediante una pendiente lineal termina en el año 30 en 88.85% de rendimiento.
+
+- IEC61215:2021 / IEC61730:2023
+- ISO9001:2015: Quality Management System
+- ISO14001:2015: Environment Management System
+- ISO45001:2018: Occupational health and safety management systems
+
+5.2. Specifications (STC)
+Maximum Power - Pmax [Wp]	645	650	655	660	665	670
+Maximum Power Voltage - Vmp [V]	42.27	42.57	42.7	42.78	42.85	42.92
+Maximum Power Current - Imp [A]	15.26	15.27	15.34	15.43	15.52	15.61
+Open-circuit Voltage - Voc [V]	49.88	50.26	50.44	50.5	50.55	50.6
+Short-circuit Current - Isc [A]	15.98	15.98	16.04	16.14	16.24	16.34
+Module Efficiency STC [%]	23.88	24.06	24.25	24.43	24.62	24.8
+Bifacial Factor	85 ± 5%	85 ± 5%	85 ± 5%	85 ± 5%	85 ± 5%	85 ± 5%
+Power  Meassurement Tolerance	± 3%	± 3%	± 3%	± 3%	± 3%	± 3%
+Power Sorting	0 ~ +3 %	0 ~ +3 %	0 ~ +3 %	0 ~ +3 %	0 ~ +3 %	0 ~ +3 %
+Temperature Coefficients of Pmax	-0.26 %/°C	-0.26 %/°C	-0.26 %/°C	-0.26 %/°C	-0.26 %/°C	-0.26 %/°C
+Temperature Coefficients of Voc	-0.24 %/°C	-0.24 %/°C	-0.24 %/°C	-0.24 %/°C	-0.24 %/°C	-0.24 %/°C
+Temperature Coefficients of Isc	-0.046 %/°C	-0.046 %/°C	-0.046 %/°C	-0.046 %/°C	-0.046 %/°C	-0.046 %/°C
+
+* STC: Irradiance 1000W/m2, Cell Temperature 25°C, AM=1.5
+
+5.3. Specifications (BNPI)
+Maximum Power - Pmax [Wp]*	718	724	729	735	741	746
+Maximum Power Voltage - Vmp [V]	42.15	42.52	42.69	42.7	42.75	42.8
+Maximum Power Current - Imp [A]	17.04	17.04	17.1	17.21	17.32	17.42
+Open-circuit Voltage - Voc [V]	50	50.38	50.56	50.7	50.75	50.8
+Short-circuit Current - Isc [A]	17.79	17.8	17.87	17.98	18.09	18.2
+
+"BNPI: Irradiance: Front 1000W/m2, Rear 135W/m2, Cell Temperature 25°C, AM=1.5.
+* Power measurement tolerance: ±3%"
+
+5.4. Application Conditions
+Operating Temperature: -40 °C ~ +70 °C*
+Maximum System Voltage: 1500 VDC (IEC)
+Maximum Series Fuse Rating: 35 A
+* Short-term up to 85°C; higher operation requires IEC TS 63126 testing
+
+
+6. ZXM8-TPLDD132 645-670W, Znshine PV-Tech Co., Ltd.
+Technology: Bifacial, PERC
+Power Range: 645 - 670 Wp
+Product Warranty: 12 Years
+Power Warranty: 1 Years of 98 %, 30 Years of 84.95 %
+Panel Efficiency: 20.76 % - 21.57 %
+Dimension: 2384x1303x35 mm
+Glass Thickness: 2 mm
+Temperature Coefficient of Pmax: -0.34 %/°C
+Cell Number: 132
+maximum system voltage: 1500 V DC 
+Total Degradation Rate:0.5%
+Type: Monocrystalline (Mono PERC)
+
+6.2. Electrical Data at STC
+Model No.	645	650	655	660	665	670
+Nominal Power Watt Pmax(W)*	645	650	655	660	665	670
+Maximum Power (Pmax)	645 Wp	650 Wp	655 Wp	660 Wp	665 Wp	670 Wp
+Voltage at Maximum Power (Vmpp)	37.5 V	37.7 V	37.9 V	38.1 V	38.3 V	38.5 V
+Current at Maximum Power (Impp)	17.21 A	17.25 A	17.29 A	17.33 A	17.37 A	17.41 A
+Open Circuit Voltage (Voc)	45 V	45.2 V	45.4 V	45.6 V	45.8 V	46 V
+Short Circuit Current (Isc)	18.22 A	18.27 A	18.32 A	18.37 A	18.42 A	18.47 A
+Panel Efficiency	20.76%	20.92%	21.09%	21.25%	21.41%	21.57%
+
+*STC (Standard Test Condition): Irradiance 1000W/m², Module Temperature 25±2℃, AM 1.5
+
+6.3. Electrical Data at NOCT  
+Maximum Power (Pmax)	484.9 Wp	488.6 Wp	492.3 Wp	496.1 Wp	499.8 Wp	503.6 Wp
+Voltage at Maximum Power (Vmpp)	35 V	35.2 V	35.4 V	35.6 V	35.7 V	35.9 V
+Current at Maximum Power (Impp)	13.84 A	13.88 A	13.92 A	13.95 A	13.99 A	14.03 A
+Open Circuit Voltage (Voc)	42.3 V	42.4 V	42.6 V	42.8 V	43 V	43.2 V
+Short Circuit Current (Isc)	14.71 A	14.785 A	14.79 A	14.83 A	14.87 A	14.91 A
+
+6.4. Temperature Ratings
+NMOT	43±2 °C
+Temperature Coefficient of Pmax	-0.34 %/°C
+Temperature Coefficient of Voc	-0.29 %/°C
+Temperature Coefficient of Isc	0.05 %/°C
+Refer.Bifacial Factor	70±10%
+*NMOT:Irradiance 800W/m²,Ambient Temperature 20℃,AM 1.5,Wind Speed 1m/s	
+
+6.5. Working Conditions
+Maximum System Voltage: 1500 V
+Operating Temperature Range: -40 °C - 85 °C
+Series Fuse Rating: 35 A
+
+6.6. Mechanical Data
+Panel Dimension (H/W/D) 	2384x1303x35 mm
+Weight	38.5 kg
+Cell Number	132
+Glass Type	Anti-reflection Coating
+Glass Thickness	2 mm
+Junction Box Diodes	3
+Junction Box Protection Class	IP 68
+Connector Type	MC4
+Cable Crossection	4 mm2
+Cable Length	350 mm
+
+6.7. ELECTRICAL CHARACTERISTICS WITH 25% REAR SIDE POWER GAIN *
+Front power Pmax/W	645	650	655	660	665	670
+Total power Pmax/W	806	813	819	825	831	838
+Vmp/V(Total)	37.6	37.8	38	38.2	38.4	38.6
+Imp/A(Total)	21.44	21.49	21.55	21.6	21.65	21.7
+Voc/V(Total)	45.1	45.3	45.5	45.7	45.9	46.1
+Isc/A(Total)	22.7	22.77	22.83	22.89	22.96	23.02
+
+
+
+7. ZXM8-TPLDD132 670-700W, Znshine PV-Tech Co., Ltd.
+7.1. General
+Technology: Bifacial, PERC
+Power Range: 670 - 700 Wp
+Product Warranty: 12 Years
+Power Warranty: 1 Years of 98 %, 30 Years of 87.40 %
+Maximum Efficiency: 22.53%
+Dimension:2384×1303×35 mm (With Frame)
+Glass: 2.0 mm+2.0mm, High Transmission, AR Coated Heat Strengthened Glass
+Operating temperature: -40℃~+85℃
+Cell Number: 132 (6x22)
+maximum system voltage: 1500 V DC 
+Total Degradation Rate:0.4%
+Type: Monocrystalline PERC PV Module
+
+7.2. Electrical Data at STC
+Model No.	670	675	680	685	690	695	700
+Nominal Power Watt Pmax(W)*	670	675	680	685	690	695	700
+Maximum Power (Pmax)	670 Wp	675 Wp	680 Wp	685 Wp	690 Wp	695 Wp	700 Wp
+Voltage at Maximum Power (Vmpp)	39.3	39.5	39.7	39.9	40.1	40.3	40.5
+Current at Maximum Power (Impp)	17.05	17.09	17.13	17.17	17.21	17.25	17.29
+Open Circuit Voltage (Voc)	47.1	47.3	47.5	47.7	47.9	48.1	48.3
+Short Circuit Current (Isc)	18.03	18.07	18.11	18.15	18.19	18.23	18.27
+Panel Efficiency	21.57%	21.73%	21.89%	22.05%	22.21%	22.37%	22.53%
+
+*STC (Standard Test Condition): Irradiance 1000W/m², Module Temperature 25±2℃, AM 1.5
+
+7.3. Temperature Ratings
+NMOT	43±2 °C
+Temperature Coefficient of Pmax	(-0.30±0.03)%/℃
+Temperature Coefficient of Voc	-0.25 %/°C
+Temperature Coefficient of Isc	0.046 %/°C
+Refer.Bifacial Factor	80±10%
+*NMOT:Irradiance 800W/m²,Ambient Temperature 20℃,AM 1.5,Wind Speed 1m/s	
+
+7.4. Working Conditions
+Maximum System Voltage	1500 V
+Operating Temperature Range	-40 - 85 °C
+Series Fuse Rating	35 A
+
+7.5. Mechanical Data
+Panel Dimension (H/W/D) 	2384x1303x35 mm
+Weight	38.5 kg
+Cell Number	132 (6X22)
+Glass Type	High Transmission, AR Coated Heat Strengthened Glass
+Glass Thickness	2 mm
+
+
+8. Vertex N, TSM-NEG19RC.20 590-620W
+23% Maximun Efficiency
+N-type i-TOPCon
+Bifacial Dual Glass
+Monocrystalline Module
+
+8.1. MECHANICAL DATA
+Solar Cells: N-type i-TOPcon Monocrystalline
+No. of cells: 132 cells
+Module Dimensions: 2382×1134×30mm
+Weight: 33.7kg
+Front Glass: 2.0 mm, High Transmission, AR Coated Heat Strengthened Glass
+Encapsulant material: POE/EVA
+Back Glass: 2.0 mm, Heat Strengthened Glass (White Grid Glass)
+
+8.2. TEMPERATURE RATINGS
+NOCT (Nominal Operating Cell Temperature): 43C(±2°C)
+Temperature Coefficient of PMAX: - 0.29%/°C
+Temperature Coefficient of Voc: -0.24%/°C
+Temperature Coefficient of Isc: 0.04%/°C
+
+8.3. MAXIMUM RATINGS
+Operational Temperature: -40~+85°C
+Maximum System Voltage: 1500V DC(IEC), 1500V DC (UL)
+Max Series Fuse Rating: 30A*
+*This is for customers engineering to decide
+
+8.4. WARRANTY
+12 year Product Workmanship Warranty
+30 year Power Warranty
+1% first year degradation
+0.40% Annual Power Attenuation
+
+8.5. ELECTRICAL DATA (STC & NOCT )
+Testing Condition	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT
+Peak Power Watts-PMAx (Wp)*	590	450	595	454	600	459	605	462	610	466	615	470	620	474
+Power Tolerance-PMAX (W)	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5	0~+5
+Maximum Power Voltage-VMPP (V)	39.7	37.4	40	37.6	40.3	37.9	40.5	38.1	40.8	38.3	41.1	38.6	41.4	38.8
+Maximum Power Current-IMPP (A)	14.86	12.05	14.89	12.07	14.91	12.11	14.94	12.13	14.96	12.16	14.98	12.19	14.99	12.2
+Open Circuit Voltage-Voc (V)	47.8	45.4	48.1	45.7	48.4	46	48.7	46.2	49	46.5	49.3	46.8	49.6	47.1
+Short Circuit Current-Isc(A)	15.72	12.67	15.76	12.69	15.8	12.73	15.83	12.75	15.86	12.78	15.89	12.8	15.91	12.82
+Module Efficiency n m (%)	21.8	21.8	22	22	22.2	22.2	22.4	22.4	22.6	22.6	22.8	22.8	23	23
+
+9. TWMNF, 66HD700-725W
+N-type Half-cell
+Bifacial Module (66)
+12 year Product Workmanship Warranty
+30 year Power Warranty (87.40 Linear Power Output Warranty)
+1% first year degradation
+0.40% Annual Power Attenuation
+
+9.1. Mechanical parameters
+Cell Type	TNC (N Type Monocrystalline Cell)
+Cell Orientation	132[6×22]
+Dimensions	2384±2×1303±2×33mm
+Weight	37.9kg
+Front Glass	2.0mm AR coated heat strengthened glass
+Rear Glass	2.0mm heat strengthened glass
+Frame	Anodized aluminum alloy frame
+Junction Box	IP68, 3diodes
+Cable	4.0mm2
+Cable length	+400mm, -200mm or ±1400mm, length can be customized
+Wind/Snow load	2400Pa/5400Pa
+Per pallet	33pcs
+Packaging	594pcs per 40'HC
+
+9.2. Electrical characteristics (STC)
+Module type:	TWMNF-66 HD700	TWMNF-66 HD705	TWMNF-66 HD710	TWMNF-66 HD715	TWMNF-66 HD720	TWMNF-66 HD725
+Maximum Power: Pmax [W]	700	705	710	715	720	725
+Open Circuit Voltage: Voc [V]	48.6	48.77	48.94	49.11	49.28	49.45
+Short Circuit Current: Isc [A]	18.35	18.4	18.45	18.5	18.55	18.6
+Voltage at Maximum Power: Vmp [V]	40.35	40.52	40.69	40.86	41.03	41.2
+Current at Maximum Power: Imp [A]	17.35	17.4	17.45	17.5	17.55	17.6
+Module Efficiency: n [%]	22.5	22.7	22.9	23	23.2	23.3
+* STC: Irradiance 1000W/m2, Cell Temperature 25℃, AM=1.5, Power measurement tolerance: ±3%
+
+9.3. Temperature rating
+Temperature Coefficient of Pmax	-0.28%/°C
+Temperature Coefficient of Voc	-0.24%/°C
+Temperature Coefficient of Isc	+0.046%/°C
+NMOT	45±2°C
+
+9.4. Operating parameters
+Operating Temperature	-40°C~+70
+Maximum System Voltage	1500V DC
+Maximum Series Fuse Rating	35A
+Power Selection Tolerance	0~+3%
+Bifaciality coefficient of Pmax	80±5%
+Bifaciality coefficient of Voc	98±5%
+Bifaciality coefficient of Isc	80±5%
+Fire Class Rating	Class C
+
+10. Hi-MO 7 LR8-66HGD 595~625M (LONGi LR8-66HGD-615M no se encuentra individualmente, pera esta consolidadda dentro de 595-625M)
+Half-cell Lower Operating Temperature
+Bifacial Module (66)
+12 year Product Workmanship Warranty
+30 year Power Warranty (87.40 Linear Power Output Warranty)
+1% first year degradation
+0.40% Annual Power Degradation
+23.1% Max Module Efficiency
+
+10.1. Mechanical Parameters
+Cell Orientation	132 (6×22)
+Junction Box	IP68, three diodes
+Glass	Dual glass, 2.0+2.0mm heat strengthened glass
+Frame	Anodized aluminum alloy frame
+Weight	32.5kg
+Dimension	2382×1134×30mm
+Packaging 36pcs per pallet/ 144pcs per 20' GP / 720pcs or 576pcs (only for USA) per 40' HC	
+10.2. Electrical Characteristics (STC : AM1.5 1000W/m2 25°C, NOCT: AM1.5 800W/m2 20°C, 1.0 m/s (Test uncertainty for Pmax: ±3%))
+Module Type	LR8-66HGD-595M	LR8-66HGD-595M	LR8-66HGD-600M	LR8-66HGD-600M	LR8-66HGD-605M	LR8-66HGD-605M	LR8-66HGD-610M	LR8-66HGD-610M	LR8-66HGD-615M	LR8-66HGD-615M	LR8-66HGD-620M	LR8-66HGD-620M	LR8-66HGD-625M	LR8-66HGD-625M
+Testing Condition	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT	STC	NOCT
+Maximum Power (Pmax/W)	595	452.9	600	456.7	605	460.5	610	464.3	615	468.1	620	471.9	625	475.8
+Open Circuit Voltage (Voc/V)	47.78	45.41	47.98	45.6	48.18	45.79	48.38	45.98	48.58	46.17	48.78	46.36	48.98	46.55
+Short Circuit Current (Isc/A)	15.8	12.69	15.85	12.73	15.9	12.77	15.95	12.81	16	12.85	16.05	12.89	16.1	12.93
+Voltage at Maximum Power (Vmp/V)	39.91	37.93	40.11	38.12	40.31	38.31	40.51	38.5	40.71	38.69	40.91	38.88	41.11	39.07
+Current at Maximum Power (Imp/A)	14.91	11.94	14.96	11.98	15.01	12.02	15.06	12.06	15.11	12.1	15.16	12.14	15.21	12.18
+Module Efficiency(%)	22	22	22.2	22.2	22.4	22.4	22.6	22.6	22.8	22.8	23	23	23.1	23.1
+
+10.3. Operating Parameters
+Operational Temperature	-40°℃~+85℃
+Power Output Tolerance	0~3%
+Maximum System Voltage	DC1500V(IEC/UL)
+Maximum Series Fuse Rating	35A
+Nominal Operating Cell Temperature	45±2℃
+Protection Class	Class II
+Bifaciality	80±5%
+Fire Rating	UL type 29, IEC Class C
+
+10.4. Temperature Ratings (STC)
+Temperature Coefficient of Isc	-0.045%/°C
+Temperature Coefficient of Voc	-0.230%/°C
+Temperature Coefficient of Pmax	-0.280%/°C

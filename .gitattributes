@@ -1,0 +1,3 @@
+# Los archivos se guardan tal cual, sin convertir finales de línea: datos/MANIFIESTO.sha256 guarda la huella exacta
+# de cada archivo de datos y los cuadernos se detienen si no coincide.
+* -text
